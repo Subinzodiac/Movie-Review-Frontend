@@ -1,0 +1,77 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.1s ease-in-out;
+}
+
+:root {
+  --body_background:  #f2f2f2;
+  --body_color: #050404d8;
+  --nav-font: sans-serif;
+  --lg-font: Poppins;
+  --sm-font: Roboto;
+  --white: #ffffff;
+  --black: #000000f6;
+  --linear_color1: #ffffff00;
+  --linear_color2: #f5f5f59e;
+  --footer_background: #fffdd0;
+  color: ali;
+
+  
+}
+
+[data-theme="dark"] {
+  --body_background: #000000eb;
+  --body_color: #ffffff;
+  --nav-font: sans-serif;
+  --lg-font: Poppins;
+  --sm-font: Roboto;
+  --white: #ffffff;
+  --black: #000000f6;
+  --linear_color1: rgba(255, 255, 241, 0.319);
+  --linear_color2: rgba(0, 0, 0, 0.895);
+  --footer_background: #202c37;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: var(--body_background)  !important;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure preloader is displayed on top */
+}
+
+.loader {
+  /* Style your loading animation here */
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+

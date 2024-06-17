@@ -1,0 +1,10 @@
+.noReview_section {
+    width: 100%;
+
+}
+.noReview_section .content h1 {
+    color: red;
+    font-size: 35px;
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}

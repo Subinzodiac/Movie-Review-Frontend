@@ -1,0 +1,78 @@
+.movie_box {
+    width: 100%;
+    background-image: linear-gradient(250deg, var(--linear_color1) 0%, var(--linear_color2) 66%), url('https://images.alphacoders.com/441/thumb-1920-441809.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movie_container {
+    padding: 70px;
+}
+
+.movie_img {
+    max-width: 100%;
+    width: 90%;
+    height: 374px;
+}
+
+.movie_container .movie_title h1{
+    font-family: var(--lg-font);
+    color: var(--body_color);
+    font-size: 2.25rem;
+    margin: 0;
+}
+
+.movie_container p {
+    font-family: var(--sm-font);
+    color: var(--body_color);
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 30px;
+    text-wrap: wrap;
+    text-align: start;
+}
+
+.movie_box .button_group button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    transition: 0.5s ease-in;
+}
+
+.movie_box .button_group button:hover {
+    background-color: rgb(113, 9, 9);
+    color: grey;
+}
+
+.movie_box .button_group .favorite_icon {
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+
+}
+
+@media only screen and (max-width: 576px) {
+    .movie_container {
+        padding: 23px;
+    }
+
+    .img_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 450px;
+
+    }
+
+    .movie_img {
+        max-width: 100%;
+        width: 300px;
+        height: 350px;
+        
+    }
+  }
+

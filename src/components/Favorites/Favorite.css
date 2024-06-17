@@ -1,0 +1,61 @@
+
+.favorite_box {
+    max-width: 100%;
+    color: var(--body_color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid red;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+.favorite_box .image_box {
+    max-width: 450px;
+    max-height: 200px;
+    
+}
+
+.favorite_box .left_part .favorite_img {
+    max-width: 100%;
+    max-height: 200px; 
+
+}
+
+.favorite_box .right_part .delete_button {
+    background-color: red;
+    padding: 0.41rem 0.79rem;
+    border: none;
+}
+.favorite_box .right_part .delete_icon {
+    color: var(--body_color);
+    font-size: 25px;
+}
+
+
+@media only screen and (max-width: 576.99px) {
+    .favorite_box {
+        max-width: 100%;
+        color: var(--body_color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 3px solid red;
+        border-radius: 10px;
+        
+    }
+
+    .favorite_box .right_part .delete_button {
+        background-color: red;
+        padding: 0.211rem 0.59rem;
+        border: none;
+        margin-bottom: 1rem;
+    }
+
+    .favorite_box .right_part {
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+}

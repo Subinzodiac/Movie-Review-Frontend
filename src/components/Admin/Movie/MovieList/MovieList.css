@@ -1,0 +1,62 @@
+.movieList_section .movieList_container .main_header {
+    background-color: #007bff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.movieList_section .movieList_container .main_header h1 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.movieList_section .movieList_container .table_section {
+    overflow-x: auto;
+}
+
+.movieList_section .movieList_container .table_section .table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.movieList_section .movieList_container .table_section .table th {
+    background-color: #343a40;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.movieList_section .movieList_container .table_section .table td {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.movieList_section .movieList_container .table_section .table .delete_button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+.movieList_section .movieList_container .table_section .table .delete_button:hover {
+    background-color: #c82333;
+}
+
+.movieList_section .movieList_container .table_section .text-start .add_button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.movieList_section .movieList_container .table_section .text-start .add_button:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,10 @@
+.noFavorite_section {
+    width: 100%;
+
+}
+.noFavorite_section .content h1 {
+    color: red;
+    font-size: 35px;
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}

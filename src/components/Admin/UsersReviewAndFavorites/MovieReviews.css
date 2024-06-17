@@ -1,0 +1,51 @@
+.movieReviews_section {
+    background-color: #f9f9f9;
+    color: var(--body_color);
+    padding: 20px 0;
+}
+
+.movieReviews_section .review_container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.movieReviews_section .main_header {
+    border-bottom: 3px solid #111010;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.movieReviews_section .main_header h1 {
+    font-family: var(--lg-font);
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+
+.movieReviews_section .review_content {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.movieReviews_section .review_content:last-child {
+    border-bottom: none;
+}
+
+.movieReviews_section .review_content .review_header {
+    font-family: var(--lg-font);
+    letter-spacing: 1px;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.movieReviews_section .review_content .review_para {
+    font-family: var(--sm-font);
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: start;
+    word-wrap: break-word;
+}

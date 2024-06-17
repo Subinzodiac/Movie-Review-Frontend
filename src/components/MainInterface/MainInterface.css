@@ -1,0 +1,110 @@
+:root {
+    --primary-color: #4A90E2;
+    --secondary-color: #F5F7FA;
+    --text-color: #333;
+    --header-color: #222;
+    --btn-hover-color: #357ABD;
+    --font-lg: 'Helvetica Neue', sans-serif;
+    --font-sm: 'Arial', sans-serif;
+    --brand-font: 'Pacifico', cursive; /* New font for the brand name */
+}
+
+.mainInterface {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+.mainInterface .first_section .header .brand_logo {
+    display: flex;
+    align-items: center;
+}
+
+.mainInterface .first_section .header .brand_logo .brand_image {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.mainInterface .first_section .header .brand_logo .text_logo {
+    color: var(--header-color);
+    font-size: 30px;
+    font-family: var(--brand-font); /* Apply the new font */
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.mainInterface .first_section .header .end_part a {
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.mainInterface .first_section .header .end_part a:hover {
+    background-color: var(--btn-hover-color);
+}
+
+.mainInterface .first_section .main_container .main_content h1 {
+    font-family: var(--font-lg);
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: var(--header-color);
+    text-align: center;
+}
+
+.mainInterface .first_section .main_container .main_content p {
+    font-family: var(--font-sm);
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.mainInterface .first_section .main_container .main_content .explore_button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px;
+}
+
+.mainInterface .first_section .main_container .main_content .explore_button:hover {
+    background-color: var(--btn-hover-color);
+    transform: scale(1.05);
+}
+
+.mainInterface .section {
+    background-color: var(--secondary-color);
+    padding: 50px 0;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.mainInterface .section .main_img {
+    max-width: 100%;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mainInterface .section .main_img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mainInterface .section .main_header h3 {
+    font-family: var(--font-lg);
+    color: var(--header-color);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.favorite_container .main_header {
+    border-bottom: 3px solid red;
+    border-radius: 5px;
+}
+
+.favorite_container .main_header h1 {
+    color: var(--body_color);
+    font-family: var(--lg-font);
+    letter-spacing: 1px;
+    font-size: 35px;
+    text-wrap: wrap;
+
+}
+
+.favorite_container .movie_row .card {
+    max-width: 100%;
+    height: 250px;
+}
+
+.favorite_container .movie_row .card  .card-img {
+    height: 250px;
+
+}
+
+.favorite_container .movie_row .card-text {
+    color: var(--body_color);
+    font-family: var(--lg-font);
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}

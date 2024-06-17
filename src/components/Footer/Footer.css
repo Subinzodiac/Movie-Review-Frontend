@@ -1,0 +1,33 @@
+/* Footer */
+.footer {
+    background-color: var(--footer_background);
+}
+
+.footer .footer_section h3 {
+    color: var(--body_color);
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+    font-size: 23px;
+}
+
+.footer .footer_section p {
+    color: var(--body_color);
+    font-family: var(--sm-font);
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.footer .footer_section a {
+    text-decoration: none;
+    color: var(--body_color);
+    font-weight: 100;
+}
+
+.footer .footer_bottom p {
+    color: grey;
+    font-family: var(--sm-font);
+    letter-spacing: 1px;
+    /* Add any additional styles for the footer bottom here */
+}

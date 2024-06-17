@@ -1,0 +1,60 @@
+.review_container {
+    margin-top: 1rem;
+    padding: 3rem;
+}
+
+.review_content {
+    border-bottom: 1px solid rgb(236, 216, 216);
+    padding-bottom: 20px;
+   
+}
+
+.review_content h3 {
+    color: var(--body_color);
+    font-family: var(--lg-font);
+    letter-spacing: 1px;
+    border-bottom: 5px solid red;
+    width: 120px;
+    margin: 0;
+}
+
+.review_para {
+    font-family: var(--sm-font);
+    font-size: 18px;
+    max-width: 100%;
+    border-bottom: 3px solid rgb(232, 17, 17);
+    margin-top: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 3;
+}
+
+.review_para p {
+    max-width: 900px;
+    color: var(--body_color);
+}
+
+.review_content p {
+    color: var(--body_color);
+}
+
+.delete_button {
+    padding: 0.45rem 0.75rem;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+}
+
+.delete_icon {
+    color: var(--body_color);
+    font-size: 21px;
+}
+
+/* Review section posting styling */

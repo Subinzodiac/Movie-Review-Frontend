@@ -1,0 +1,37 @@
+.listOfReview_section .review_header {
+    color: Red;
+    font-size: 35px;
+    font-family: var(--lg-font);
+    letter-spacing: 1px;
+}
+
+.listOfReview_section .listOfReview_box {
+    border-bottom: 5px solid red;
+    border-radius: 5px;
+    color: var(--body_color);
+}
+
+.listOfReview_section .listOfReview_box .first_part {
+    max-width: 450px;
+    max-height: 250px;
+}
+
+.listOfReview_section .listOfReview_box .first_part .movie_image {
+    max-width: 350px;
+    max-height: 250px;
+}
+
+.listOfReview_section .listOfReview_box .first_part h2 {
+    font-family: var(--lg-font);
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.listOfReview_section .listOfReview_box .second_part p {
+    font-size: 17px;
+    font-family: var(--sm-font);
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-wrap: wrap;
+    text-align: start;
+}

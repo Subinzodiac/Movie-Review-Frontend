@@ -1,0 +1,142 @@
+.review_posting_section {
+    padding: 3rem;
+}
+
+.review_posting_section .review_post_box .form_container form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.review_posting_section .review_post_box .form_container form textarea {
+    border: none;
+    padding: 25px;
+    background-color: var(--body_background);
+    color: var(--body_color);
+}
+
+.review_posting_section .review_post_box .form_container form label {
+    color: var(--body_color);
+}
+
+.review_posting_section .review_post_box .form_container form small {
+    color: var(--body_color);
+    font-family: var(--sm-font);
+}
+
+.review_posting_section .review_post_box .form_container form input {
+    max-width: 130px;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: var(--body_background);
+    color: var(--body_color);
+    border: 2px solid var(--body_color);
+}
+
+.review_posting_section .review_post_box .form_container .review_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.review_posting_section .review_post_box .form_container form .post_button button {
+    padding: 0.25rem 1.6rem;
+    color: var(--white);
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+}
+
+.review_posting_section .review_post_box .form_container form .post_button .post_icon {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+}
+.review_posting_section h4 {
+    color: var(--body_color);
+    font-family: var(--sm-font);
+}
+
+@media only screen and (max-width: 991.99px) {
+    .review_container {
+        padding: 2.5rem;
+        margin-top: 1rem;
+    }
+   
+}
+
+@media only screen and (max-width: 768.99px) {
+    .review_container {
+        padding: 1rem;
+    }
+
+    .review_para {
+        max-width: 100%;
+        border-bottom: 3px solid rgb(232, 17, 17);
+        margin-top: 30px;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 4px;
+    }
+}
+
+@media only screen and (max-width: 576.99px) {
+    .review_container {
+        padding: 30px;
+    }
+
+    .review_para {
+        font-family: var(--sm-font);
+        font-size: 16px;
+        max-width: 100%;
+        border-bottom: 3px solid rgb(232, 17, 17);
+        margin-top: 55px;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 4px;
+    }
+
+    .review_posting_section {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    
+    }
+
+    .review_posting_section .review_post_box .form_container .review_group {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+
+    .review_posting_section .review_post_box .form_container form input {
+        max-width: 100px;
+        padding: 0.5rem 2rem;
+        border-radius: 5px;
+    }
+
+    .review_posting_section .review_post_box .form_container form .post_button button {
+        padding: 0.25rem 1.4rem;
+        color: var(--white);
+        background-color: red;
+        margin-top: 1rem;
+    }
+}

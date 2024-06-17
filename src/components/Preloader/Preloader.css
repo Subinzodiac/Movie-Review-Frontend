@@ -1,0 +1,27 @@
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure preloader is displayed on top */
+  }
+  
+  .loader {
+    /* Style your loading animation here */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-top-color: transparent;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }

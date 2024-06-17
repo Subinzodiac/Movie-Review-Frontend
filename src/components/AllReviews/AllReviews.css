@@ -1,0 +1,32 @@
+.othersReview_section .othersReview_container .othersReview_content {
+    border-bottom: 2px solid red;
+    border-radius: 9px;
+    color: var(--body_color);
+}
+
+.othersReview_section .othersReview_container .main_header {
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: var(--body_color);
+    border-bottom: 5px solid red;
+    max-width: 300px;
+}
+
+.othersReview_section .othersReview_container .othersReview_content .header h3 {
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.othersReview_section .othersReview_container .othersReview_content .header .user_badge {
+    border-radius: 50%;
+    border: 5px solid blue;
+    padding: 0.35rem 0.75rem;
+}
+
+.othersReview_section .othersReview_container .othersReview_content p {
+    font-family: var(--sm-font);
+    letter-spacing: 1px;
+    font-size: 10px;
+}
